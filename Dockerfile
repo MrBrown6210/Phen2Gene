@@ -7,5 +7,5 @@ COPY . /code
 RUN python -m pip install --upgrade pip
 RUN pip install -r requirements.txt
 RUN yes "" | bash setup.sh
-ENTRYPOINT ["python", "phen2gene.py"]
-CMD ["-h"]
+# ENTRYPOINT ["python", "phen2gene.py"]
+# CMD ["-h"]
